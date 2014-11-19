@@ -1,15 +1,21 @@
+body {
+	background-image: url("pink-blue-watercolor.jpg");
+}
+
 .header {
-	background-color: white;
-	background-opacity: .5;
+	background-color: transparent;
+	background-opacity: .2;
 	padding-bottom: 10px;
 	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .logo img{
 	width: 15%;
 	height: auto;
 	overflow: hidden;
-	border: 5px solid gray;
+	border: 5px solid white;
 	border-radius: 150px;
 	position: relative;
 	left: 50px;
@@ -27,6 +33,7 @@
 	bottom: 450px;
 	top: auto;
 	color: purple;
+	background-color: transparent;
 }
 
 .menu {
@@ -38,41 +45,50 @@
 	top: 160px;
 	bottom: auto;
 	overflow: hidden;
+	background-color: transparent;
 }
 
 .horizontalmenu li{
 	display: inline-block;
 	list-style: none;
 	margin-right: 40px;
+	background-color: transparent;
 }
 
-#slider{
-	
-	background-color: #000000;
-	border: 5px solid #eaeaea;
-	box-shadow: 1px 1px 5px rgba (0,0,0,0.7);
-	height: 320px;
-	width: 680px;
-	margin: 40px auto 0;
-	overflow: visible;
-	position: relative;
+a:visited {
+	color: black;
 }
 
-#mask {
-	overflow: hidden;
-	height: 320px;
+a:link {
+	color: purple;
 }
 
-#slider ul {
-	margin: 0;
-	padding: 0;
-	position: relative;
+a:hover {
+    text-decoration: underline;
+    color: white;
+    color: black;
+    background-color: #FF80B2;
+    font-size: 100%; 
 }
 
-#slider li {
-	width: 680px;
-	height: 320 px;
+.content {
+	background-color: white;
+	margin: 20px auto 0;
+	margin-left: 100px;
+	margin-right: 100px;
 	position: absolute;
-	top: -325px;
-	list-style: none;
+	padding: 20px;
+	opacity: .7;
 }
+
+#bakeryimage img{
+	float: right;
+	opacity: 1;
+}
+
+p {
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 18px;
+}
+
+
