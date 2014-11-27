@@ -87,6 +87,7 @@ a:hover {
 	border: 5px solid white;
 	border-radius: 70px;
 	overflow: hidden;
+	color:#2b5165;
 }
 
 .imgcontent img{
@@ -128,6 +129,34 @@ P {
 	top: 220px;
 	padding: 11px;
 	opacity: .95;
+	color:#2b5165;
+}
+
+.menutype {
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 24px;
+	text-align: center;
+}
+
+.menuitem{
+	text-align: left;
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 22px;
+	color:#2b5165;
+}
+
+.menucaption {
+	text-align: left;
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 16px;
+	color: #b49b79;
+}
+
+.menuprice {
+	text-align: right;
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 16px;
+	color: #000000;
 }
 
 .footer {
@@ -140,10 +169,13 @@ P {
 	background: solid white;
 	opacity: 1;
 	width: 100%;
+	font-family: Georgia;
 }
 
 .footernav li{
 	display: inline-block;
 	margin-right: 40px;
 	margin-left: 100px;
+	position: relative;
+	bottom:6px; 
 }
