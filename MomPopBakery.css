@@ -61,7 +61,7 @@ a:visited {
 }
 
 a:link {
-	color: purple;
+	color: #2b5165;
 }
 
 a:hover {
@@ -148,15 +148,34 @@ P {
 .menucaption {
 	text-align: left;
 	font-family: 'Walter Turncoat', cursive;
-	font-size: 16px;
+	font-size: 16pt;
 	color: #b49b79;
 }
 
 .menuprice {
 	text-align: right;
 	font-family: 'Walter Turncoat', cursive;
-	font-size: 16px;
+	font-size: 16pt;
 	color: #000000;
+}
+
+.galleryimages img{
+	float: left;
+	left: 200%;
+	width: 30%;
+	margin-right: 1%;
+	margin-bottom: .5em;
+}
+
+.galleryimages .caption {
+	float: left;
+	font-family: 'Walter Turncoat', cursive;
+	font-size: 12pt;
+	color: #2b5165;
+	text-align: center;
+	width: 100%;
+	margin-right: 1%;
+	margin-bottom: 0.5em;
 }
 
 .footer {
